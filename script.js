@@ -1,0 +1,17 @@
+$(function(){
+	$("#js-live-room-normal-equal-left").remove();
+	$("#js-live-room-normal-equal-right").remove();
+	$("#left").remove();
+	$("#js-fans-rank").remove();
+	$("#js-live-room-normal-right").height($("#js-live-room-normal-left").height());
+	$("div[class='pendant-wrap']").remove();
+	$(".room-ad-top").remove();
+	$(".js-chat-notice").remove();
+	$(".giftbatter-box").remove();
+	$(".giftbatter-box2").remove();
+	$("#anchor-info").remove();
+	$("#js-stats-and-actions").remove();
+	$("div[selector='pushlist']").remove();
+	$("div[selector='recomandbtnwrap']").remove();	
+});
+setInterval(function(){$(".pendant-wrap").remove();},3000);

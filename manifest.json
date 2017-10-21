@@ -1,0 +1,15 @@
+{
+  "name": "douyuDelAd",
+  "manifest_version": 2,
+  "version": "1.0",
+  "description": "I Love douyuDelAd ~~！",
+  "browser_action": {
+    "default_icon": "1.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://www.douyu.com/*"],
+      "js": ["jquery.js","script.js"]
+    }
+  ]
+}
