@@ -23,6 +23,8 @@ $(function(){
 	$(".nobility-privilege").remove();
 	$("#footer").remove();
 	$("#lifter").remove();
+	$(".noble-up-guide").remove();
+	$(".pop-dialog").remove();
 	$("#mainbody").css({marginLeft:20});
 });
 setInterval(function(){
