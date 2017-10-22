@@ -12,6 +12,20 @@ $(function(){
 	$("#anchor-info").remove();
 	$("#js-stats-and-actions").remove();
 	$("div[selector='pushlist']").remove();
-	$("div[selector='recomandbtnwrap']").remove();	
+	$("div[selector='recomandbtnwrap']").remove();
+	$(".lol-ad").remove();
+	$(".assort-ad").remove();
+	$(".ngad-info").remove();
+	$(".starshow").remove();
+	$(".row").remove();
+	$(".f-sign-cont").remove();
+	$(".his-sign-cont").remove();
+	$(".nobility-privilege").remove();
+	$("#footer").remove();
+	$("#lifter").remove();
+	$("#mainbody").css({marginLeft:0});
 });
-setInterval(function(){$(".pendant-wrap").remove();},3000);
+setInterval(function(){
+	$(".pendant-wrap").remove();
+	$(".chat-ad").remove();
+},3000);
