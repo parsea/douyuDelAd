@@ -23,7 +23,7 @@ $(function(){
 	$(".nobility-privilege").remove();
 	$("#footer").remove();
 	$("#lifter").remove();
-	$("#mainbody").css({marginLeft:0});
+	$("#mainbody").css({marginLeft:20});
 });
 setInterval(function(){
 	$(".pendant-wrap").remove();
