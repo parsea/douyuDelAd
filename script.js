@@ -3,7 +3,9 @@ $(function(){
 	$("#js-live-room-normal-equal-right").remove();
 	$("#left").remove();
 	$("#js-fans-rank").remove();
-	$("#js-live-room-normal-right").height($("#js-live-room-normal-left").height());
+	// $("#js-live-room-normal-right").height($("#js-live-room-normal-left").height());
+	$('.PlayerCaseSub-Main').css({top:0});
+	$("#js-chat-cont").css({top:0});//右边的顶部距离
 	$("div[class='pendant-wrap']").remove();
 	$(".room-ad-top").remove();
 	$(".js-chat-notice").remove();
@@ -26,6 +28,7 @@ $(function(){
 	$(".noble-up-guide").remove();
 	$(".pop-dialog").remove();
 	$("#mainbody").css({marginLeft:20});
+	$(".no-login").remove();
 });
 setInterval(function(){
 	$(".pendant-wrap").remove();
